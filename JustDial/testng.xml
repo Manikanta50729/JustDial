@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.BBapp.test_Scripts.TC_004"/>
+      <class name="com.BBapp.test_Scripts.TC_003"/>
+      <class name="com.BBapp.test_Scripts.Test009"/>
+      <class name="com.BBapp.test_Scripts.TC_010"/>
+      <class name="com.BBapp.test_Scripts.Test001"/>
+      <class name="com.BBapp.test_Scripts.Test_002"/>
+      <class name="com.BBapp.test_Scripts.tc008"/>
+      <class name="com.BBapp.test_Scripts.Test006"/>
+      <class name="com.BBapp.test_Scripts.TC_007"/>
+      <class name="com.BBapp.test_Scripts.Test005"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

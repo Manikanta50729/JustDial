@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.BBapp.test_Scripts.Test006">
+        <methods>
+          <include name="test6"/>
+          <include name="beforeM"/>
+          <include name="afterM"/>
+        </methods>
+      </class> <!-- com.BBapp.test_Scripts.Test006 -->
+      <class name="com.BBapp.test_Scripts.Test001">
+        <methods>
+          <include name="beforeM"/>
+          <include name="afterM"/>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- com.BBapp.test_Scripts.Test001 -->
+      <class name="com.BBapp.test_Scripts.TC_010">
+        <methods>
+          <include name="beforeM"/>
+          <include name="afterM"/>
+          <include name="test010"/>
+        </methods>
+      </class> <!-- com.BBapp.test_Scripts.TC_010 -->
+      <class name="com.BBapp.test_Scripts.TC_004">
+        <methods>
+          <include name="beforeM"/>
+          <include name="afterM"/>
+          <include name="test4"/>
+        </methods>
+      </class> <!-- com.BBapp.test_Scripts.TC_004 -->
+      <class name="com.BBapp.test_Scripts.Test005">
+        <methods>
+          <include name="beforeM"/>
+          <include name="afterM"/>
+          <include name="test5"/>
+        </methods>
+      </class> <!-- com.BBapp.test_Scripts.Test005 -->
+      <class name="com.BBapp.test_Scripts.Test_002">
+        <methods>
+          <include name="test"/>
+          <include name="beforeM"/>
+          <include name="afterM"/>
+        </methods>
+      </class> <!-- com.BBapp.test_Scripts.Test_002 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
