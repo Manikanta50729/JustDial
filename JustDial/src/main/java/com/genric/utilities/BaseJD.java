@@ -17,7 +17,9 @@ import io.appium.java_client.remote.MobileCapabilityType;
 public class BaseJD extends Utils
 {
 	public static AndroidDriver driver;
-	 public TouchAction act;
+	public TouchAction act;
+	 
+	public static InitializationClass pages;
 	//public static AndroidDriver staticdriver;
 @BeforeMethod
 public void beforeM() throws MalformedURLException
@@ -25,8 +27,8 @@ public void beforeM() throws MalformedURLException
 	DesiredCapabilities cap= new DesiredCapabilities();
 	cap.setCapability(MobileCapabilityType.AUTOMATION_NAME, "uiautomator2");
 	cap.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
-	cap.setCapability(MobileCapabilityType.DEVICE_NAME, "POCO");
-	cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, "11.0.0");
+	cap.setCapability(MobileCapabilityType.DEVICE_NAME, "Galaxy M32 5G");
+	cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, "12.0.0");
 	//cap.setCapability(MobileCapabilityType.UDID, "98dfb6d6");
 	
 	cap.setCapability("appPackage", "com.justdial.search");
@@ -37,6 +39,8 @@ public void beforeM() throws MalformedURLException
 	driver=new AndroidDriver(url, cap);   System.out.println("app open");
 	
 	act = new TouchAction(driver);
+	
+	pages= new InitializationClass(driver);
 	
 	//driver.manage().deleteAllCookies();
 	driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);

@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.JD.testScripts.TestEnd_to_End">
+      <class name="com.JD.testScripts.TestEnd_to_End2">
         <methods>
           <include name="flightBooking"/>
           <include name="beforeM"/>
           <include name="afterM"/>
         </methods>
-      </class> <!-- com.JD.testScripts.TestEnd_to_End -->
+      </class> <!-- com.JD.testScripts.TestEnd_to_End2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
